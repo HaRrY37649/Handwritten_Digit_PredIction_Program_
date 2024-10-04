@@ -1,4 +1,5 @@
 Project Name: Handwritten_Digit_Prediction_Program
+
 The Handwritten_Digit_Prediction_Program is a machine learning project designed to classify handwritten digits (0-9) using a Multilayer Perceptron (MLP) neural network. The program utilizes a widely used dataset like MNIST, which contains thousands of images of handwritten digits, to train the model. The main objective is to develop a system that can accurately predict the digit displayed in an image based on pixel data.
 
 The process begins with data preprocessing, where the images are converted into grayscale and normalized to improve model efficiency. Each image is flattened into a one-dimensional array, where each pixel becomes a feature. The MLP model is then trained using these features. It consists of multiple fully connected layers, starting with an input layer, followed by hidden layers using activation functions such as ReLU, and an output layer representing the 10 digit classes. The model is optimized through backpropagation to minimize the error during training.
